@@ -1,4 +1,6 @@
 # DataFlor 3D Scanner 
+A 3D scanning application to scan indoor and outdoor spaces using point clouds and creating 3D visuals. You can measure and move around in this 3D space, applying various filters to your liking. Additionally, scans can be exported further further tweaking.
+
 ##### (Developed in SwiftUI)
 
 ### Getting Started
