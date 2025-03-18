@@ -1,0 +1,1313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		140240AD294F9EC0007207F5 /* NeoSansStdLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 140240AC294F9EC0007207F5 /* NeoSansStdLight.otf */; };
+		140240AF294F9ECC007207F5 /* NeoSansStdBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 140240AE294F9ECC007207F5 /* NeoSansStdBold.otf */; };
+		140240B1294F9ED9007207F5 /* NeoSansStdRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 140240B0294F9ED9007207F5 /* NeoSansStdRegular.otf */; };
+		140240B4294FAF76007207F5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140240B3294FAF76007207F5 /* HeaderView.swift */; };
+		140240B6294FC0C8007207F5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140240B5294FC0C8007207F5 /* Color.swift */; };
+		140240B8294FC711007207F5 /* ScanListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140240B7294FC711007207F5 /* ScanListView.swift */; };
+		140240BA294FC950007207F5 /* EmptySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140240B9294FC950007207F5 /* EmptySectionView.swift */; };
+		140240DA29510BA7007207F5 /* MeshScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140240D929510BA7007207F5 /* MeshScanView.swift */; };
+		140240DC29510BD3007207F5 /* PointCloudScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140240DB29510BD3007207F5 /* PointCloudScanView.swift */; };
+		140240E029510CD9007207F5 /* MeshViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140240DF29510CD9007207F5 /* MeshViewControllerRepresentable.swift */; };
+		140C54202A75199E00C0D7F0 /* DeviceUnsupportedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140C541F2A75199E00C0D7F0 /* DeviceUnsupportedView.swift */; };
+		140E6C3629DB5B4B00532283 /* PointsCaptureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E6C3529DB5B4B00532283 /* PointsCaptureViewModel.swift */; };
+		140E6C3829DC223C00532283 /* HelperObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140E6C3729DC223C00532283 /* HelperObjects.swift */; };
+		143F3921295A49D70079FE9B /* PreviewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F3920295A49D70079FE9B /* PreviewControllerRepresentable.swift */; };
+		143F3923295A4ECE0079FE9B /* MeshViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F3922295A4ECE0079FE9B /* MeshViewerView.swift */; };
+		143F3928295BBBD10079FE9B /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F3927295BBBD10079FE9B /* View.swift */; };
+		143F392A295BBCEE0079FE9B /* SaveMeshScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F3929295BBCEE0079FE9B /* SaveMeshScanView.swift */; };
+		143F392E295C60BC0079FE9B /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F392D295C60BC0079FE9B /* Font.swift */; };
+		143F3930295CBB000079FE9B /* SavedMeshViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F392F295CBB000079FE9B /* SavedMeshViewerView.swift */; };
+		143F5EDE29C3130A00846845 /* SavedPointsViewerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143F5EDD29C3130A00846845 /* SavedPointsViewerTabView.swift */; };
+		1467E4CD29F1731D00D4B4AC /* PointsViewerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1467E4CC29F1731D00D4B4AC /* PointsViewerSettingsView.swift */; };
+		147DA847295113570002BE0D /* MeasurementUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA846295113570002BE0D /* MeasurementUtils.swift */; };
+		147DA849295266670002BE0D /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA848295266670002BE0D /* Strings.swift */; };
+		147DA84B295331480002BE0D /* MeshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA84A295331480002BE0D /* MeshViewController.swift */; };
+		147DA84F2953B0BD0002BE0D /* Colorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA84E2953B0BD0002BE0D /* Colorizer.swift */; };
+		147DA8512953B1830002BE0D /* MeshControlsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA8502953B1830002BE0D /* MeshControlsTabView.swift */; };
+		147DA85329547BA70002BE0D /* LocationMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA85229547BA70002BE0D /* LocationMetricsView.swift */; };
+		147DA88029552BDB0002BE0D /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA86129552BDB0002BE0D /* MetricsView.swift */; };
+		147DA88129552BDB0002BE0D /* CaptureRenderingView+Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA86329552BDB0002BE0D /* CaptureRenderingView+Coordinator.swift */; };
+		147DA88229552BDB0002BE0D /* CaptureRenderingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA86429552BDB0002BE0D /* CaptureRenderingModel.swift */; };
+		147DA88329552BDB0002BE0D /* CaptureRenderingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA86529552BDB0002BE0D /* CaptureRenderingView.swift */; };
+		147DA88429552BDB0002BE0D /* CaptureControlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA86729552BDB0002BE0D /* CaptureControlModel.swift */; };
+		147DA88529552BDB0002BE0D /* ConfidenceCaptureSubParameterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA86A29552BDB0002BE0D /* ConfidenceCaptureSubParameterView.swift */; };
+		147DA88629552BDB0002BE0D /* SamplingRateCaptureSubParameterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA86B29552BDB0002BE0D /* SamplingRateCaptureSubParameterView.swift */; };
+		147DA88729552BDB0002BE0D /* CaptureParametersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA86C29552BDB0002BE0D /* CaptureParametersView.swift */; };
+		147DA88829552BDB0002BE0D /* CaptureControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA86D29552BDB0002BE0D /* CaptureControlView.swift */; };
+		147DA88929552BDB0002BE0D /* CaptureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA86E29552BDB0002BE0D /* CaptureModel.swift */; };
+		147DA88A29552BDB0002BE0D /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA86F29552BDB0002BE0D /* CaptureView.swift */; };
+		147DA88B29552BDB0002BE0D /* CaptureToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA87029552BDB0002BE0D /* CaptureToggleStyle.swift */; };
+		147DA88C29552BDB0002BE0D /* CaptureViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA87229552BDB0002BE0D /* CaptureViewerModel.swift */; };
+		147DA88D29552BDB0002BE0D /* CaptureViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA87329552BDB0002BE0D /* CaptureViewerView.swift */; };
+		147DA88E29552BDB0002BE0D /* CaptureViewerControlsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA87629552BDB0002BE0D /* CaptureViewerControlsModel.swift */; };
+		147DA88F29552BDB0002BE0D /* ProcessorParametersEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA87729552BDB0002BE0D /* ProcessorParametersEditorView.swift */; };
+		147DA89029552BDB0002BE0D /* CaptureViewerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA87829552BDB0002BE0D /* CaptureViewerControlsView.swift */; };
+		147DA89129552BDB0002BE0D /* CaptureViewerParametersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA87929552BDB0002BE0D /* CaptureViewerParametersView.swift */; };
+		147DA89829552ECA0002BE0D /* ProcessorParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA89429552ECA0002BE0D /* ProcessorParameters.swift */; };
+		147DA89929552ECA0002BE0D /* ProcessorServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA89529552ECA0002BE0D /* ProcessorServiceError.swift */; };
+		147DA89A29552ECA0002BE0D /* ProcessorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA89629552ECA0002BE0D /* ProcessorService.swift */; };
+		147DA89B29552ECA0002BE0D /* ProcessorParameters+RawRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA89729552ECA0002BE0D /* ProcessorParameters+RawRepresentable.swift */; };
+		147DA89D295530270002BE0D /* UnsupportedDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147DA89C295530270002BE0D /* UnsupportedDeviceView.swift */; };
+		1485D010296EF6C800A5CFD0 /* UniformTypeIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D00F296EF6C800A5CFD0 /* UniformTypeIdentifier.swift */; };
+		1485D013296F0A7900A5CFD0 /* PointsViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D012296F0A7900A5CFD0 /* PointsViewerView.swift */; };
+		1485D016296F38EA00A5CFD0 /* SceneUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D015296F38EA00A5CFD0 /* SceneUIView.swift */; };
+		1485D07A296F6C7B00A5CFD0 /* SavePointsScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D079296F6C7B00A5CFD0 /* SavePointsScanView.swift */; };
+		1485D07C296F75B400A5CFD0 /* SavedPointsViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D07B296F75B400A5CFD0 /* SavedPointsViewerView.swift */; };
+		14862DFB29DD732F00C39BED /* Model3DView in Frameworks */ = {isa = PBXBuildFile; productRef = 14862DFA29DD732F00C39BED /* Model3DView */; };
+		14862DFD29DD8D9C00C39BED /* PointsCaptureTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14862DFC29DD8D9C00C39BED /* PointsCaptureTabViewModel.swift */; };
+		1496A6A6297953AF00F9B412 /* PointsViewerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6A5297953AF00F9B412 /* PointsViewerViewModel.swift */; };
+		1496A6A82979565A00F9B412 /* PointCloudKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6A72979565A00F9B412 /* PointCloudKitHelper.swift */; };
+		1496A6AA297F15BD00F9B412 /* ObjFileViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6A9297F15BD00F9B412 /* ObjFileViewerView.swift */; };
+		1496A6AC297F199300F9B412 /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6AB297F199300F9B412 /* SceneKitView.swift */; };
+		1496A6AE2981689000F9B412 /* ObjFileViewerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6AD2981689000F9B412 /* ObjFileViewerViewModel.swift */; };
+		1496A6B029816AD600F9B412 /* MeshViewerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6AF29816AD600F9B412 /* MeshViewerMainView.swift */; };
+		1496A6B229817C8C00F9B412 /* UsdzFileViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6B129817C8C00F9B412 /* UsdzFileViewerView.swift */; };
+		1496A6BD29827FBA00F9B412 /* ARScnViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6BC29827FBA00F9B412 /* ARScnViewRepresentable.swift */; };
+		1496A6BF2982800D00F9B412 /* ARSCNViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6BE2982800D00F9B412 /* ARSCNViewModel.swift */; };
+		1496A6C32984234C00F9B412 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6C22984234C00F9B412 /* AppDelegate.swift */; };
+		1496A6C52984241C00F9B412 /* PointsCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6C42984241C00F9B412 /* PointsCaptureView.swift */; };
+		1496A6C7298ACF6A00F9B412 /* PointsCaptureParametersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6C6298ACF6A00F9B412 /* PointsCaptureParametersView.swift */; };
+		1496A6CA299D318700F9B412 /* PointsCaptureTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1496A6C9299D318700F9B412 /* PointsCaptureTabView.swift */; };
+		149B4C67296B80BB00234E60 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B4C66296B80BB00234E60 /* Constants.swift */; };
+		149B4C6F296CD27200234E60 /* PointsViewerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B4C6E296CD27200234E60 /* PointsViewerTabView.swift */; };
+		149B4C71296DEF0F00234E60 /* PointsViewerAdjustmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B4C70296DEF0F00234E60 /* PointsViewerAdjustmentsView.swift */; };
+		149B4C73296DF1FE00234E60 /* PointsViewerToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B4C72296DF1FE00234E60 /* PointsViewerToolsView.swift */; };
+		149B4C75296DF24500234E60 /* PointsViewerToolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B4C74296DF24500234E60 /* PointsViewerToolsViewModel.swift */; };
+		149B4C77296DF36900234E60 /* PointsViewerAdjustmentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B4C76296DF36900234E60 /* PointsViewerAdjustmentsViewModel.swift */; };
+		149B4C79296E022A00234E60 /* PointsViewerTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149B4C78296E022A00234E60 /* PointsViewerTabViewModel.swift */; };
+		14CC9B7C293D007500BFEDE4 /* DataFlorScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9B7B293D007500BFEDE4 /* DataFlorScannerApp.swift */; };
+		14CC9B7E293D007500BFEDE4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9B7D293D007500BFEDE4 /* MainView.swift */; };
+		14CC9B80293D007600BFEDE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CC9B7F293D007600BFEDE4 /* Assets.xcassets */; };
+		14CC9B83293D007600BFEDE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CC9B82293D007600BFEDE4 /* Preview Assets.xcassets */; };
+		14CC9B8B293D069F00BFEDE4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9B8A293D069F00BFEDE4 /* DataController.swift */; };
+		14CC9B8E293D06CE00BFEDE4 /* scannerModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9B8C293D06CE00BFEDE4 /* scannerModel.xcdatamodeld */; };
+		14CC9B92293D12A000BFEDE4 /* ScanListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9B91293D12A000BFEDE4 /* ScanListCellView.swift */; };
+		14CC9B98293D1BD800BFEDE4 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = 14CC9B97293D1BD800BFEDE4 /* PythonKit */; };
+		14CC9BA3293D242B00BFEDE4 /* ExpandableFAB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9BA2293D242B00BFEDE4 /* ExpandableFAB.swift */; };
+		14CC9BAF2941148A00BFEDE4 /* PointCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9BAE2941148A00BFEDE4 /* PointCloud.swift */; };
+		14CC9BE6294A27C400BFEDE4 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9BE5294A27C400BFEDE4 /* Enums.swift */; };
+		14CC9BEC294A284700BFEDE4 /* FlashlightService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9BE9294A284700BFEDE4 /* FlashlightService.swift */; };
+		14CC9BED294A284700BFEDE4 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9BEB294A284700BFEDE4 /* ExportService.swift */; };
+		14CC9BEF294A285C00BFEDE4 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9BEE294A285C00BFEDE4 /* LocationManager.swift */; };
+		14D1A2B529B51AE000852901 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14D1A2B729B51AE000852901 /* Localizable.strings */; };
+		14D1A2BC29B52F9600852901 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14D1A2BE29B52F9600852901 /* InfoPlist.strings */; };
+		14D1A2C129B538F500852901 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1A2C029B538F500852901 /* String.swift */; };
+		14D1A2C329B5418900852901 /* LocalizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1A2C229B5418900852901 /* LocalizationService.swift */; };
+		14D1A2C629B8FFA600852901 /* SavedPointsViewerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D1A2C529B8FFA600852901 /* SavedPointsViewerViewModel.swift */; };
+		14D5268329E700AE00BBEECC /* NavigationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5268229E700AE00BBEECC /* NavigationUtils.swift */; };
+		14D5FC9829670C2C00BA7CE0 /* MeshScan+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5FC9729670C2C00BA7CE0 /* MeshScan+CoreDataClass.swift */; };
+		14D5FC9A29670DE400BA7CE0 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D5FC9929670DE400BA7CE0 /* Image.swift */; };
+		14D6B6862A7A72E700222FB5 /* SceneDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D6B6852A7A72E700222FB5 /* SceneDisplayView.swift */; };
+		14D7596D294D37D1009FB6B6 /* Scan+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D7596B294D37D1009FB6B6 /* Scan+CoreDataClass.swift */; };
+		14D75973294F4F1D009FB6B6 /* Open3D-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 14D75972294F4F1D009FB6B6 /* Open3D-iOS */; };
+		14DB8EAF294A55EE00ADE397 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 14DB8EAE294A55EE00ADE397 /* Common */; };
+		14DB8EB2294A55FF00ADE397 /* PointCloudRendererService in Frameworks */ = {isa = PBXBuildFile; productRef = 14DB8EB1294A55FF00ADE397 /* PointCloudRendererService */; };
+		14DB8EBF294B254400ADE397 /* PointCloudVisualizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EBC294B254400ADE397 /* PointCloudVisualizationView.swift */; };
+		14DB8EC0294B254400ADE397 /* PointCloudVisualizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EBD294B254400ADE397 /* PointCloudVisualizationViewController.swift */; };
+		14DB8EC1294B254400ADE397 /* PointCloudVisualizationHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EBE294B254400ADE397 /* PointCloudVisualizationHostView.swift */; };
+		14DB8EC3294B259700ADE397 /* ActivityViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EC2294B259700ADE397 /* ActivityViewRepresentable.swift */; };
+		14DB8EFF294B394D00ADE397 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EF2294B394D00ADE397 /* Scene.swift */; };
+		14DB8F01294B394D00ADE397 /* ARMeshGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EF4294B394D00ADE397 /* ARMeshGeometry.swift */; };
+		14DB8F02294B394D00ADE397 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EF5294B394D00ADE397 /* Comparable.swift */; };
+		14DB8F04294B394D00ADE397 /* SCNFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EF7294B394D00ADE397 /* SCNFiles.swift */; };
+		14DB8F05294B394D00ADE397 /* FloatFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EF8294B394D00ADE397 /* FloatFiles.swift */; };
+		14DB8F08294B394D00ADE397 /* ARPlaneAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EFB294B394D00ADE397 /* ARPlaneAnchor.swift */; };
+		14DB8F09294B394D00ADE397 /* SCNGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DB8EFC294B394D00ADE397 /* SCNGeometry.swift */; };
+		14EA3B7629F94CF2005BE474 /* MeasurementPolygonFileFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA3B7529F94CF2005BE474 /* MeasurementPolygonFileFormat.swift */; };
+		14EA3B782A02B37E005BE474 /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA3B772A02B37E005BE474 /* Binding.swift */; };
+		14F1096D29D228B600E75A4A /* PointsViewerTabView+Export.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F1096C29D228B600E75A4A /* PointsViewerTabView+Export.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		140240AC294F9EC0007207F5 /* NeoSansStdLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NeoSansStdLight.otf; sourceTree = "<group>"; };
+		140240AE294F9ECC007207F5 /* NeoSansStdBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NeoSansStdBold.otf; sourceTree = "<group>"; };
+		140240B0294F9ED9007207F5 /* NeoSansStdRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NeoSansStdRegular.otf; sourceTree = "<group>"; };
+		140240B2294F9F09007207F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		140240B3294FAF76007207F5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		140240B5294FC0C8007207F5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		140240B7294FC711007207F5 /* ScanListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListView.swift; sourceTree = "<group>"; };
+		140240B9294FC950007207F5 /* EmptySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptySectionView.swift; sourceTree = "<group>"; };
+		140240D929510BA7007207F5 /* MeshScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshScanView.swift; sourceTree = "<group>"; };
+		140240DB29510BD3007207F5 /* PointCloudScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudScanView.swift; sourceTree = "<group>"; };
+		140240DF29510CD9007207F5 /* MeshViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		140C541F2A75199E00C0D7F0 /* DeviceUnsupportedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUnsupportedView.swift; sourceTree = "<group>"; };
+		140E6C3529DB5B4B00532283 /* PointsCaptureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsCaptureViewModel.swift; sourceTree = "<group>"; };
+		140E6C3729DC223C00532283 /* HelperObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperObjects.swift; sourceTree = "<group>"; };
+		143F3920295A49D70079FE9B /* PreviewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewControllerRepresentable.swift; sourceTree = "<group>"; };
+		143F3922295A4ECE0079FE9B /* MeshViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshViewerView.swift; sourceTree = "<group>"; };
+		143F3927295BBBD10079FE9B /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		143F3929295BBCEE0079FE9B /* SaveMeshScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMeshScanView.swift; sourceTree = "<group>"; };
+		143F392D295C60BC0079FE9B /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		143F392F295CBB000079FE9B /* SavedMeshViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedMeshViewerView.swift; sourceTree = "<group>"; };
+		143F5EDD29C3130A00846845 /* SavedPointsViewerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPointsViewerTabView.swift; sourceTree = "<group>"; };
+		1467E4CC29F1731D00D4B4AC /* PointsViewerSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewerSettingsView.swift; sourceTree = "<group>"; };
+		147DA846295113570002BE0D /* MeasurementUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementUtils.swift; sourceTree = "<group>"; };
+		147DA848295266670002BE0D /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		147DA84A295331480002BE0D /* MeshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshViewController.swift; sourceTree = "<group>"; };
+		147DA84E2953B0BD0002BE0D /* Colorizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorizer.swift; sourceTree = "<group>"; };
+		147DA8502953B1830002BE0D /* MeshControlsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshControlsTabView.swift; sourceTree = "<group>"; };
+		147DA85229547BA70002BE0D /* LocationMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMetricsView.swift; sourceTree = "<group>"; };
+		147DA86129552BDB0002BE0D /* MetricsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		147DA86329552BDB0002BE0D /* CaptureRenderingView+Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CaptureRenderingView+Coordinator.swift"; sourceTree = "<group>"; };
+		147DA86429552BDB0002BE0D /* CaptureRenderingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureRenderingModel.swift; sourceTree = "<group>"; };
+		147DA86529552BDB0002BE0D /* CaptureRenderingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureRenderingView.swift; sourceTree = "<group>"; };
+		147DA86729552BDB0002BE0D /* CaptureControlModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureControlModel.swift; sourceTree = "<group>"; };
+		147DA86A29552BDB0002BE0D /* ConfidenceCaptureSubParameterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfidenceCaptureSubParameterView.swift; sourceTree = "<group>"; };
+		147DA86B29552BDB0002BE0D /* SamplingRateCaptureSubParameterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SamplingRateCaptureSubParameterView.swift; sourceTree = "<group>"; };
+		147DA86C29552BDB0002BE0D /* CaptureParametersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureParametersView.swift; sourceTree = "<group>"; };
+		147DA86D29552BDB0002BE0D /* CaptureControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureControlView.swift; sourceTree = "<group>"; };
+		147DA86E29552BDB0002BE0D /* CaptureModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureModel.swift; sourceTree = "<group>"; };
+		147DA86F29552BDB0002BE0D /* CaptureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		147DA87029552BDB0002BE0D /* CaptureToggleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureToggleStyle.swift; sourceTree = "<group>"; };
+		147DA87229552BDB0002BE0D /* CaptureViewerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewerModel.swift; sourceTree = "<group>"; };
+		147DA87329552BDB0002BE0D /* CaptureViewerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewerView.swift; sourceTree = "<group>"; };
+		147DA87629552BDB0002BE0D /* CaptureViewerControlsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewerControlsModel.swift; sourceTree = "<group>"; };
+		147DA87729552BDB0002BE0D /* ProcessorParametersEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessorParametersEditorView.swift; sourceTree = "<group>"; };
+		147DA87829552BDB0002BE0D /* CaptureViewerControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewerControlsView.swift; sourceTree = "<group>"; };
+		147DA87929552BDB0002BE0D /* CaptureViewerParametersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureViewerParametersView.swift; sourceTree = "<group>"; };
+		147DA89429552ECA0002BE0D /* ProcessorParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessorParameters.swift; sourceTree = "<group>"; };
+		147DA89529552ECA0002BE0D /* ProcessorServiceError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessorServiceError.swift; sourceTree = "<group>"; };
+		147DA89629552ECA0002BE0D /* ProcessorService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessorService.swift; sourceTree = "<group>"; };
+		147DA89729552ECA0002BE0D /* ProcessorParameters+RawRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProcessorParameters+RawRepresentable.swift"; sourceTree = "<group>"; };
+		147DA89C295530270002BE0D /* UnsupportedDeviceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnsupportedDeviceView.swift; sourceTree = "<group>"; };
+		1485D00F296EF6C800A5CFD0 /* UniformTypeIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniformTypeIdentifier.swift; sourceTree = "<group>"; };
+		1485D012296F0A7900A5CFD0 /* PointsViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewerView.swift; sourceTree = "<group>"; };
+		1485D015296F38EA00A5CFD0 /* SceneUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneUIView.swift; sourceTree = "<group>"; };
+		1485D079296F6C7B00A5CFD0 /* SavePointsScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePointsScanView.swift; sourceTree = "<group>"; };
+		1485D07B296F75B400A5CFD0 /* SavedPointsViewerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedPointsViewerView.swift; sourceTree = "<group>"; };
+		14862DFC29DD8D9C00C39BED /* PointsCaptureTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsCaptureTabViewModel.swift; sourceTree = "<group>"; };
+		1496A6A5297953AF00F9B412 /* PointsViewerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewerViewModel.swift; sourceTree = "<group>"; };
+		1496A6A72979565A00F9B412 /* PointCloudKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloudKitHelper.swift; sourceTree = "<group>"; };
+		1496A6A9297F15BD00F9B412 /* ObjFileViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjFileViewerView.swift; sourceTree = "<group>"; };
+		1496A6AB297F199300F9B412 /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
+		1496A6AD2981689000F9B412 /* ObjFileViewerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjFileViewerViewModel.swift; sourceTree = "<group>"; };
+		1496A6AF29816AD600F9B412 /* MeshViewerMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshViewerMainView.swift; sourceTree = "<group>"; };
+		1496A6B129817C8C00F9B412 /* UsdzFileViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsdzFileViewerView.swift; sourceTree = "<group>"; };
+		1496A6BC29827FBA00F9B412 /* ARScnViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARScnViewRepresentable.swift; sourceTree = "<group>"; };
+		1496A6BE2982800D00F9B412 /* ARSCNViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSCNViewModel.swift; sourceTree = "<group>"; };
+		1496A6C22984234C00F9B412 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1496A6C42984241C00F9B412 /* PointsCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsCaptureView.swift; sourceTree = "<group>"; };
+		1496A6C6298ACF6A00F9B412 /* PointsCaptureParametersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsCaptureParametersView.swift; sourceTree = "<group>"; };
+		1496A6C9299D318700F9B412 /* PointsCaptureTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsCaptureTabView.swift; sourceTree = "<group>"; };
+		149B4C66296B80BB00234E60 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		149B4C6E296CD27200234E60 /* PointsViewerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewerTabView.swift; sourceTree = "<group>"; };
+		149B4C70296DEF0F00234E60 /* PointsViewerAdjustmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewerAdjustmentsView.swift; sourceTree = "<group>"; };
+		149B4C72296DF1FE00234E60 /* PointsViewerToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewerToolsView.swift; sourceTree = "<group>"; };
+		149B4C74296DF24500234E60 /* PointsViewerToolsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewerToolsViewModel.swift; sourceTree = "<group>"; };
+		149B4C76296DF36900234E60 /* PointsViewerAdjustmentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewerAdjustmentsViewModel.swift; sourceTree = "<group>"; };
+		149B4C78296E022A00234E60 /* PointsViewerTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsViewerTabViewModel.swift; sourceTree = "<group>"; };
+		14CC9B78293D007500BFEDE4 /* DataFlorScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataFlorScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CC9B7B293D007500BFEDE4 /* DataFlorScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFlorScannerApp.swift; sourceTree = "<group>"; };
+		14CC9B7D293D007500BFEDE4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		14CC9B7F293D007600BFEDE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14CC9B82293D007600BFEDE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14CC9B8A293D069F00BFEDE4 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		14CC9B8D293D06CE00BFEDE4 /* scannerModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = scannerModel.xcdatamodel; sourceTree = "<group>"; };
+		14CC9B91293D12A000BFEDE4 /* ScanListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanListCellView.swift; sourceTree = "<group>"; };
+		14CC9BA2293D242B00BFEDE4 /* ExpandableFAB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableFAB.swift; sourceTree = "<group>"; };
+		14CC9BAE2941148A00BFEDE4 /* PointCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointCloud.swift; sourceTree = "<group>"; };
+		14CC9BE5294A27C400BFEDE4 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		14CC9BE9294A284700BFEDE4 /* FlashlightService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashlightService.swift; sourceTree = "<group>"; };
+		14CC9BEB294A284700BFEDE4 /* ExportService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		14CC9BEE294A285C00BFEDE4 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		14D1A2B629B51AE000852901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		14D1A2B829B51AEC00852901 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		14D1A2BD29B52F9600852901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14D1A2BF29B52F9800852901 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14D1A2C029B538F500852901 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		14D1A2C229B5418900852901 /* LocalizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationService.swift; sourceTree = "<group>"; };
+		14D1A2C529B8FFA600852901 /* SavedPointsViewerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPointsViewerViewModel.swift; sourceTree = "<group>"; };
+		14D5268229E700AE00BBEECC /* NavigationUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationUtils.swift; sourceTree = "<group>"; };
+		14D5FC9729670C2C00BA7CE0 /* MeshScan+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MeshScan+CoreDataClass.swift"; sourceTree = "<group>"; };
+		14D5FC9929670DE400BA7CE0 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		14D6B6852A7A72E700222FB5 /* SceneDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDisplayView.swift; sourceTree = "<group>"; };
+		14D7596B294D37D1009FB6B6 /* Scan+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scan+CoreDataClass.swift"; sourceTree = "<group>"; };
+		14DB8EAD294A55E200ADE397 /* Common */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Common; path = DataFlorScanner/Common; sourceTree = "<group>"; };
+		14DB8EB0294A55FC00ADE397 /* PointCloudRendererService */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PointCloudRendererService; path = DataFlorScanner/PointCloudRendererService; sourceTree = "<group>"; };
+		14DB8EBC294B254400ADE397 /* PointCloudVisualizationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointCloudVisualizationView.swift; sourceTree = "<group>"; };
+		14DB8EBD294B254400ADE397 /* PointCloudVisualizationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointCloudVisualizationViewController.swift; sourceTree = "<group>"; };
+		14DB8EBE294B254400ADE397 /* PointCloudVisualizationHostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointCloudVisualizationHostView.swift; sourceTree = "<group>"; };
+		14DB8EC2294B259700ADE397 /* ActivityViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewRepresentable.swift; sourceTree = "<group>"; };
+		14DB8EF2294B394D00ADE397 /* Scene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		14DB8EF4294B394D00ADE397 /* ARMeshGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMeshGeometry.swift; sourceTree = "<group>"; };
+		14DB8EF5294B394D00ADE397 /* Comparable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
+		14DB8EF7294B394D00ADE397 /* SCNFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNFiles.swift; sourceTree = "<group>"; };
+		14DB8EF8294B394D00ADE397 /* FloatFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatFiles.swift; sourceTree = "<group>"; };
+		14DB8EFB294B394D00ADE397 /* ARPlaneAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARPlaneAnchor.swift; sourceTree = "<group>"; };
+		14DB8EFC294B394D00ADE397 /* SCNGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNGeometry.swift; sourceTree = "<group>"; };
+		14EA3B7529F94CF2005BE474 /* MeasurementPolygonFileFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementPolygonFileFormat.swift; sourceTree = "<group>"; };
+		14EA3B772A02B37E005BE474 /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
+		14F1096C29D228B600E75A4A /* PointsViewerTabView+Export.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PointsViewerTabView+Export.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CC9B75293D007500BFEDE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14862DFB29DD732F00C39BED /* Model3DView in Frameworks */,
+				14CC9B98293D1BD800BFEDE4 /* PythonKit in Frameworks */,
+				14DB8EB2294A55FF00ADE397 /* PointCloudRendererService in Frameworks */,
+				14DB8EAF294A55EE00ADE397 /* Common in Frameworks */,
+				14D75973294F4F1D009FB6B6 /* Open3D-iOS in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140240AB294F9E9D007207F5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				140240AE294F9ECC007207F5 /* NeoSansStdBold.otf */,
+				140240AC294F9EC0007207F5 /* NeoSansStdLight.otf */,
+				140240B0294F9ED9007207F5 /* NeoSansStdRegular.otf */,
+				14CC9B7F293D007600BFEDE4 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		140240D829510B93007207F5 /* MeshViews */ = {
+			isa = PBXGroup;
+			children = (
+				1496A6BA29827C7F00F9B412 /* SavedMeshViewer */,
+				149B4C69296CD1F800234E60 /* MeshScanner */,
+				149B4C6A296CD20D00234E60 /* MeshViewer */,
+				149B4C6B296CD21E00234E60 /* MeshSaver */,
+			);
+			path = MeshViews;
+			sourceTree = "<group>";
+		};
+		140240DD29510CBC007207F5 /* PointsViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1485D012296F0A7900A5CFD0 /* PointsViewerView.swift */,
+				1496A6A5297953AF00F9B412 /* PointsViewerViewModel.swift */,
+				1485D011296F0A3C00A5CFD0 /* TabView */,
+			);
+			path = PointsViewer;
+			sourceTree = "<group>";
+		};
+		143F3924295A52640079FE9B /* ViewRepresentableHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				14DB8EC2294B259700ADE397 /* ActivityViewRepresentable.swift */,
+				143F3920295A49D70079FE9B /* PreviewControllerRepresentable.swift */,
+			);
+			path = ViewRepresentableHelpers;
+			sourceTree = "<group>";
+		};
+		143F5EE129C350CA00846845 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				143F5EDD29C3130A00846845 /* SavedPointsViewerTabView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		147DA85629552BDB0002BE0D /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				147DA85F29552BDB0002BE0D /* Subviews */,
+				147DA86E29552BDB0002BE0D /* CaptureModel.swift */,
+				147DA86F29552BDB0002BE0D /* CaptureView.swift */,
+				147DA87029552BDB0002BE0D /* CaptureToggleStyle.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		147DA85F29552BDB0002BE0D /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				147DA86029552BDB0002BE0D /* Metrics */,
+				147DA86229552BDB0002BE0D /* CaptureRendering */,
+				147DA86629552BDB0002BE0D /* Controls */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		147DA86029552BDB0002BE0D /* Metrics */ = {
+			isa = PBXGroup;
+			children = (
+				147DA86129552BDB0002BE0D /* MetricsView.swift */,
+			);
+			path = Metrics;
+			sourceTree = "<group>";
+		};
+		147DA86229552BDB0002BE0D /* CaptureRendering */ = {
+			isa = PBXGroup;
+			children = (
+				147DA86329552BDB0002BE0D /* CaptureRenderingView+Coordinator.swift */,
+				147DA86429552BDB0002BE0D /* CaptureRenderingModel.swift */,
+				147DA86529552BDB0002BE0D /* CaptureRenderingView.swift */,
+			);
+			path = CaptureRendering;
+			sourceTree = "<group>";
+		};
+		147DA86629552BDB0002BE0D /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				147DA86729552BDB0002BE0D /* CaptureControlModel.swift */,
+				147DA86829552BDB0002BE0D /* Parameters */,
+				147DA86D29552BDB0002BE0D /* CaptureControlView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		147DA86829552BDB0002BE0D /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				147DA86929552BDB0002BE0D /* SubParameters */,
+				147DA86C29552BDB0002BE0D /* CaptureParametersView.swift */,
+			);
+			path = Parameters;
+			sourceTree = "<group>";
+		};
+		147DA86929552BDB0002BE0D /* SubParameters */ = {
+			isa = PBXGroup;
+			children = (
+				147DA86A29552BDB0002BE0D /* ConfidenceCaptureSubParameterView.swift */,
+				147DA86B29552BDB0002BE0D /* SamplingRateCaptureSubParameterView.swift */,
+			);
+			path = SubParameters;
+			sourceTree = "<group>";
+		};
+		147DA87129552BDB0002BE0D /* CaptureViewer */ = {
+			isa = PBXGroup;
+			children = (
+				147DA87229552BDB0002BE0D /* CaptureViewerModel.swift */,
+				147DA87329552BDB0002BE0D /* CaptureViewerView.swift */,
+				147DA87429552BDB0002BE0D /* Subview */,
+			);
+			path = CaptureViewer;
+			sourceTree = "<group>";
+		};
+		147DA87429552BDB0002BE0D /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				147DA87529552BDB0002BE0D /* Controls */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		147DA87529552BDB0002BE0D /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				147DA87629552BDB0002BE0D /* CaptureViewerControlsModel.swift */,
+				147DA87729552BDB0002BE0D /* ProcessorParametersEditorView.swift */,
+				147DA87829552BDB0002BE0D /* CaptureViewerControlsView.swift */,
+				147DA87929552BDB0002BE0D /* CaptureViewerParametersView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		147DA89229552BDF0002BE0D /* PointCloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				147DA89C295530270002BE0D /* UnsupportedDeviceView.swift */,
+				147DA89329552ECA0002BE0D /* Processor */,
+				147DA87129552BDB0002BE0D /* CaptureViewer */,
+				147DA85629552BDB0002BE0D /* Capture */,
+				1496A6A72979565A00F9B412 /* PointCloudKitHelper.swift */,
+			);
+			path = PointCloudKit;
+			sourceTree = "<group>";
+		};
+		147DA89329552ECA0002BE0D /* Processor */ = {
+			isa = PBXGroup;
+			children = (
+				147DA89429552ECA0002BE0D /* ProcessorParameters.swift */,
+				147DA89529552ECA0002BE0D /* ProcessorServiceError.swift */,
+				147DA89629552ECA0002BE0D /* ProcessorService.swift */,
+				147DA89729552ECA0002BE0D /* ProcessorParameters+RawRepresentable.swift */,
+			);
+			path = Processor;
+			sourceTree = "<group>";
+		};
+		1485D011296F0A3C00A5CFD0 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				149B4C6E296CD27200234E60 /* PointsViewerTabView.swift */,
+				14F1096C29D228B600E75A4A /* PointsViewerTabView+Export.swift */,
+				149B4C78296E022A00234E60 /* PointsViewerTabViewModel.swift */,
+				14D6B67C2A7A6E3000222FB5 /* Settings */,
+				14D6B67D2A7A6E6B00222FB5 /* Tools */,
+				14D6B67E2A7A6E8500222FB5 /* Adjustments */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		1496A6B929827C7300F9B412 /* SavedPointsViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1485D07B296F75B400A5CFD0 /* SavedPointsViewerView.swift */,
+				14D1A2C529B8FFA600852901 /* SavedPointsViewerViewModel.swift */,
+				143F5EE129C350CA00846845 /* TabView */,
+				14DB8EBB294B254400ADE397 /* ScanVisualization(Backup) */,
+			);
+			path = SavedPointsViewer;
+			sourceTree = "<group>";
+		};
+		1496A6BA29827C7F00F9B412 /* SavedMeshViewer */ = {
+			isa = PBXGroup;
+			children = (
+				143F392F295CBB000079FE9B /* SavedMeshViewerView.swift */,
+			);
+			path = SavedMeshViewer;
+			sourceTree = "<group>";
+		};
+		1496A6BB29827F0B00F9B412 /* ArscnViewMesh */ = {
+			isa = PBXGroup;
+			children = (
+				1496A6BC29827FBA00F9B412 /* ARScnViewRepresentable.swift */,
+				1496A6BE2982800D00F9B412 /* ARSCNViewModel.swift */,
+			);
+			path = ArscnViewMesh;
+			sourceTree = "<group>";
+		};
+		149B4C69296CD1F800234E60 /* MeshScanner */ = {
+			isa = PBXGroup;
+			children = (
+				147DA84A295331480002BE0D /* MeshViewController.swift */,
+				140240DF29510CD9007207F5 /* MeshViewControllerRepresentable.swift */,
+				140240D929510BA7007207F5 /* MeshScanView.swift */,
+				147DA8502953B1830002BE0D /* MeshControlsTabView.swift */,
+				147DA85229547BA70002BE0D /* LocationMetricsView.swift */,
+			);
+			path = MeshScanner;
+			sourceTree = "<group>";
+		};
+		149B4C6A296CD20D00234E60 /* MeshViewer */ = {
+			isa = PBXGroup;
+			children = (
+				1496A6AF29816AD600F9B412 /* MeshViewerMainView.swift */,
+				143F3922295A4ECE0079FE9B /* MeshViewerView.swift */,
+				1496A6A9297F15BD00F9B412 /* ObjFileViewerView.swift */,
+				1496A6AD2981689000F9B412 /* ObjFileViewerViewModel.swift */,
+				1496A6AB297F199300F9B412 /* SceneKitView.swift */,
+				1496A6B129817C8C00F9B412 /* UsdzFileViewerView.swift */,
+			);
+			path = MeshViewer;
+			sourceTree = "<group>";
+		};
+		149B4C6B296CD21E00234E60 /* MeshSaver */ = {
+			isa = PBXGroup;
+			children = (
+				143F3929295BBCEE0079FE9B /* SaveMeshScanView.swift */,
+			);
+			path = MeshSaver;
+			sourceTree = "<group>";
+		};
+		149B4C6C296CD22900234E60 /* PointsCapture */ = {
+			isa = PBXGroup;
+			children = (
+				140240DB29510BD3007207F5 /* PointCloudScanView.swift */,
+				14D6B67F2A7A6F9E00222FB5 /* Capture */,
+				14D6B6812A7A6FB000222FB5 /* CaptureParameters */,
+				14D6B6802A7A6FA600222FB5 /* CaptureTabView */,
+				1496A6BB29827F0B00F9B412 /* ArscnViewMesh */,
+			);
+			path = PointsCapture;
+			sourceTree = "<group>";
+		};
+		149B4C6D296CD22F00234E60 /* PointsSaver */ = {
+			isa = PBXGroup;
+			children = (
+				1485D079296F6C7B00A5CFD0 /* SavePointsScanView.swift */,
+			);
+			path = PointsSaver;
+			sourceTree = "<group>";
+		};
+		14CC9B6F293D007500BFEDE4 = {
+			isa = PBXGroup;
+			children = (
+				14CC9B7A293D007500BFEDE4 /* DataFlorScanner */,
+				14CC9B79293D007500BFEDE4 /* Products */,
+				14D7596F294D3C07009FB6B6 /* Packages */,
+				14DB8EAC294A55E200ADE397 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14CC9B79293D007500BFEDE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CC9B78293D007500BFEDE4 /* DataFlorScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CC9B7A293D007500BFEDE4 /* DataFlorScanner */ = {
+			isa = PBXGroup;
+			children = (
+				14D1A2BB29B52E8D00852901 /* Localizable */,
+				14CC9B7B293D007500BFEDE4 /* DataFlorScannerApp.swift */,
+				140240B2294F9F09007207F5 /* Info.plist */,
+				14CC9B89293D069F00BFEDE4 /* CoreDataHelpers */,
+				14D75968294D143E009FB6B6 /* MainView */,
+				14CC9BBE294A265700BFEDE4 /* PointCloudViews */,
+				140240D829510B93007207F5 /* MeshViews */,
+				143F3924295A52640079FE9B /* ViewRepresentableHelpers */,
+				140240AB294F9E9D007207F5 /* Assets */,
+				14DB8EF1294B394D00ADE397 /* Extensions */,
+				14CC9BE7294A283600BFEDE4 /* Services */,
+				14CC9BAD2941147900BFEDE4 /* Helpers */,
+				14CC9B81293D007600BFEDE4 /* Preview Content */,
+				1496A6C22984234C00F9B412 /* AppDelegate.swift */,
+			);
+			path = DataFlorScanner;
+			sourceTree = "<group>";
+		};
+		14CC9B81293D007600BFEDE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14CC9B82293D007600BFEDE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14CC9B89293D069F00BFEDE4 /* CoreDataHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				14CC9B8C293D06CE00BFEDE4 /* scannerModel.xcdatamodeld */,
+				14D5FC9729670C2C00BA7CE0 /* MeshScan+CoreDataClass.swift */,
+				14D7596B294D37D1009FB6B6 /* Scan+CoreDataClass.swift */,
+				14CC9B8A293D069F00BFEDE4 /* DataController.swift */,
+			);
+			path = CoreDataHelpers;
+			sourceTree = "<group>";
+		};
+		14CC9BAD2941147900BFEDE4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				147DA84E2953B0BD0002BE0D /* Colorizer.swift */,
+				149B4C66296B80BB00234E60 /* Constants.swift */,
+				14CC9BE5294A27C400BFEDE4 /* Enums.swift */,
+				14D5268229E700AE00BBEECC /* NavigationUtils.swift */,
+				147DA846295113570002BE0D /* MeasurementUtils.swift */,
+				14CC9BAE2941148A00BFEDE4 /* PointCloud.swift */,
+				147DA848295266670002BE0D /* Strings.swift */,
+				140E6C3729DC223C00532283 /* HelperObjects.swift */,
+				14EA3B7529F94CF2005BE474 /* MeasurementPolygonFileFormat.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		14CC9BBE294A265700BFEDE4 /* PointCloudViews */ = {
+			isa = PBXGroup;
+			children = (
+				149B4C6C296CD22900234E60 /* PointsCapture */,
+				140240DD29510CBC007207F5 /* PointsViewer */,
+				14D6B6822A7A6FE700222FB5 /* SceneUIView */,
+				149B4C6D296CD22F00234E60 /* PointsSaver */,
+				1496A6B929827C7300F9B412 /* SavedPointsViewer */,
+			);
+			path = PointCloudViews;
+			sourceTree = "<group>";
+		};
+		14CC9BE7294A283600BFEDE4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				14D6B6842A7A70F400222FB5 /* LocalizationService */,
+				14D6B6832A7A70EA00222FB5 /* LocationService */,
+				14CC9BEA294A284700BFEDE4 /* ExportService */,
+				14CC9BE8294A284700BFEDE4 /* FlashlightService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		14CC9BE8294A284700BFEDE4 /* FlashlightService */ = {
+			isa = PBXGroup;
+			children = (
+				14CC9BE9294A284700BFEDE4 /* FlashlightService.swift */,
+			);
+			path = FlashlightService;
+			sourceTree = "<group>";
+		};
+		14CC9BEA294A284700BFEDE4 /* ExportService */ = {
+			isa = PBXGroup;
+			children = (
+				14CC9BEB294A284700BFEDE4 /* ExportService.swift */,
+			);
+			path = ExportService;
+			sourceTree = "<group>";
+		};
+		14D1A2BB29B52E8D00852901 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				14D1A2BE29B52F9600852901 /* InfoPlist.strings */,
+				14D1A2B729B51AE000852901 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		14D6B67C2A7A6E3000222FB5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1467E4CC29F1731D00D4B4AC /* PointsViewerSettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		14D6B67D2A7A6E6B00222FB5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				149B4C72296DF1FE00234E60 /* PointsViewerToolsView.swift */,
+				149B4C74296DF24500234E60 /* PointsViewerToolsViewModel.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		14D6B67E2A7A6E8500222FB5 /* Adjustments */ = {
+			isa = PBXGroup;
+			children = (
+				149B4C70296DEF0F00234E60 /* PointsViewerAdjustmentsView.swift */,
+				149B4C76296DF36900234E60 /* PointsViewerAdjustmentsViewModel.swift */,
+			);
+			path = Adjustments;
+			sourceTree = "<group>";
+		};
+		14D6B67F2A7A6F9E00222FB5 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				1496A6C42984241C00F9B412 /* PointsCaptureView.swift */,
+				140E6C3529DB5B4B00532283 /* PointsCaptureViewModel.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		14D6B6802A7A6FA600222FB5 /* CaptureTabView */ = {
+			isa = PBXGroup;
+			children = (
+				1496A6C9299D318700F9B412 /* PointsCaptureTabView.swift */,
+				14862DFC29DD8D9C00C39BED /* PointsCaptureTabViewModel.swift */,
+			);
+			path = CaptureTabView;
+			sourceTree = "<group>";
+		};
+		14D6B6812A7A6FB000222FB5 /* CaptureParameters */ = {
+			isa = PBXGroup;
+			children = (
+				1496A6C6298ACF6A00F9B412 /* PointsCaptureParametersView.swift */,
+			);
+			path = CaptureParameters;
+			sourceTree = "<group>";
+		};
+		14D6B6822A7A6FE700222FB5 /* SceneUIView */ = {
+			isa = PBXGroup;
+			children = (
+				1485D015296F38EA00A5CFD0 /* SceneUIView.swift */,
+				14D6B6852A7A72E700222FB5 /* SceneDisplayView.swift */,
+			);
+			path = SceneUIView;
+			sourceTree = "<group>";
+		};
+		14D6B6832A7A70EA00222FB5 /* LocationService */ = {
+			isa = PBXGroup;
+			children = (
+				14CC9BEE294A285C00BFEDE4 /* LocationManager.swift */,
+			);
+			path = LocationService;
+			sourceTree = "<group>";
+		};
+		14D6B6842A7A70F400222FB5 /* LocalizationService */ = {
+			isa = PBXGroup;
+			children = (
+				14D1A2C229B5418900852901 /* LocalizationService.swift */,
+			);
+			path = LocalizationService;
+			sourceTree = "<group>";
+		};
+		14D75968294D143E009FB6B6 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				14CC9B7D293D007500BFEDE4 /* MainView.swift */,
+				140240B3294FAF76007207F5 /* HeaderView.swift */,
+				14CC9B91293D12A000BFEDE4 /* ScanListCellView.swift */,
+				140240B7294FC711007207F5 /* ScanListView.swift */,
+				140240B9294FC950007207F5 /* EmptySectionView.swift */,
+				14CC9BA2293D242B00BFEDE4 /* ExpandableFAB.swift */,
+				140C541F2A75199E00C0D7F0 /* DeviceUnsupportedView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		14D7596F294D3C07009FB6B6 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				147DA89229552BDF0002BE0D /* PointCloudKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		14DB8EAC294A55E200ADE397 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14DB8EB0294A55FC00ADE397 /* PointCloudRendererService */,
+				14DB8EAD294A55E200ADE397 /* Common */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14DB8EBB294B254400ADE397 /* ScanVisualization(Backup) */ = {
+			isa = PBXGroup;
+			children = (
+				14DB8EBC294B254400ADE397 /* PointCloudVisualizationView.swift */,
+				14DB8EBD294B254400ADE397 /* PointCloudVisualizationViewController.swift */,
+				14DB8EBE294B254400ADE397 /* PointCloudVisualizationHostView.swift */,
+			);
+			path = "ScanVisualization(Backup)";
+			sourceTree = "<group>";
+		};
+		14DB8EF1294B394D00ADE397 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				14DB8EF2294B394D00ADE397 /* Scene.swift */,
+				14DB8EF4294B394D00ADE397 /* ARMeshGeometry.swift */,
+				14DB8EF5294B394D00ADE397 /* Comparable.swift */,
+				14DB8EF7294B394D00ADE397 /* SCNFiles.swift */,
+				14DB8EF8294B394D00ADE397 /* FloatFiles.swift */,
+				14DB8EFB294B394D00ADE397 /* ARPlaneAnchor.swift */,
+				14DB8EFC294B394D00ADE397 /* SCNGeometry.swift */,
+				140240B5294FC0C8007207F5 /* Color.swift */,
+				143F3927295BBBD10079FE9B /* View.swift */,
+				143F392D295C60BC0079FE9B /* Font.swift */,
+				14D5FC9929670DE400BA7CE0 /* Image.swift */,
+				1485D00F296EF6C800A5CFD0 /* UniformTypeIdentifier.swift */,
+				14D1A2C029B538F500852901 /* String.swift */,
+				14EA3B772A02B37E005BE474 /* Binding.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14CC9B77293D007500BFEDE4 /* DataFlorScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CC9B86293D007600BFEDE4 /* Build configuration list for PBXNativeTarget "DataFlorScanner" */;
+			buildPhases = (
+				14CC9B74293D007500BFEDE4 /* Sources */,
+				14CC9B75293D007500BFEDE4 /* Frameworks */,
+				14CC9B76293D007500BFEDE4 /* Resources */,
+				14D1A2C429B8B61000852901 /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataFlorScanner;
+			packageProductDependencies = (
+				14CC9B97293D1BD800BFEDE4 /* PythonKit */,
+				14DB8EAE294A55EE00ADE397 /* Common */,
+				14DB8EB1294A55FF00ADE397 /* PointCloudRendererService */,
+				14D75972294F4F1D009FB6B6 /* Open3D-iOS */,
+				14862DFA29DD732F00C39BED /* Model3DView */,
+			);
+			productName = DataFlorScanner;
+			productReference = 14CC9B78293D007500BFEDE4 /* DataFlorScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CC9B70293D007500BFEDE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					14CC9B77293D007500BFEDE4 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 14CC9B73293D007500BFEDE4 /* Build configuration list for PBXProject "DataFlorScanner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = 14CC9B6F293D007500BFEDE4;
+			packageReferences = (
+				14CC9B96293D1BD800BFEDE4 /* XCRemoteSwiftPackageReference "PythonKit" */,
+				14D75971294F4F1D009FB6B6 /* XCRemoteSwiftPackageReference "Open3D-iOS" */,
+				14862DF929DD732F00C39BED /* XCRemoteSwiftPackageReference "Model3DView" */,
+			);
+			productRefGroup = 14CC9B79293D007500BFEDE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CC9B77293D007500BFEDE4 /* DataFlorScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CC9B76293D007500BFEDE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CC9B83293D007600BFEDE4 /* Preview Assets.xcassets in Resources */,
+				14D1A2BC29B52F9600852901 /* InfoPlist.strings in Resources */,
+				14D1A2B529B51AE000852901 /* Localizable.strings in Resources */,
+				14CC9B80293D007600BFEDE4 /* Assets.xcassets in Resources */,
+				140240AD294F9EC0007207F5 /* NeoSansStdLight.otf in Resources */,
+				140240B1294F9ED9007207F5 /* NeoSansStdRegular.otf in Resources */,
+				140240AF294F9ECC007207F5 /* NeoSansStdBold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14D1A2C429B8B61000852901 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"Warning! Swiftlint not installed, download from gttps://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CC9B74293D007500BFEDE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140E6C3629DB5B4B00532283 /* PointsCaptureViewModel.swift in Sources */,
+				14CC9BED294A284700BFEDE4 /* ExportService.swift in Sources */,
+				147DA88129552BDB0002BE0D /* CaptureRenderingView+Coordinator.swift in Sources */,
+				14CC9B8E293D06CE00BFEDE4 /* scannerModel.xcdatamodeld in Sources */,
+				147DA849295266670002BE0D /* Strings.swift in Sources */,
+				140240DA29510BA7007207F5 /* MeshScanView.swift in Sources */,
+				1485D016296F38EA00A5CFD0 /* SceneUIView.swift in Sources */,
+				1496A6B029816AD600F9B412 /* MeshViewerMainView.swift in Sources */,
+				147DA84B295331480002BE0D /* MeshViewController.swift in Sources */,
+				14CC9BEF294A285C00BFEDE4 /* LocationManager.swift in Sources */,
+				147DA89129552BDB0002BE0D /* CaptureViewerParametersView.swift in Sources */,
+				149B4C71296DEF0F00234E60 /* PointsViewerAdjustmentsView.swift in Sources */,
+				1485D013296F0A7900A5CFD0 /* PointsViewerView.swift in Sources */,
+				140240DC29510BD3007207F5 /* PointCloudScanView.swift in Sources */,
+				14D1A2C129B538F500852901 /* String.swift in Sources */,
+				14DB8F09294B394D00ADE397 /* SCNGeometry.swift in Sources */,
+				147DA88A29552BDB0002BE0D /* CaptureView.swift in Sources */,
+				147DA89D295530270002BE0D /* UnsupportedDeviceView.swift in Sources */,
+				14DB8EFF294B394D00ADE397 /* Scene.swift in Sources */,
+				147DA88729552BDB0002BE0D /* CaptureParametersView.swift in Sources */,
+				140240B6294FC0C8007207F5 /* Color.swift in Sources */,
+				149B4C75296DF24500234E60 /* PointsViewerToolsViewModel.swift in Sources */,
+				147DA84F2953B0BD0002BE0D /* Colorizer.swift in Sources */,
+				14D7596D294D37D1009FB6B6 /* Scan+CoreDataClass.swift in Sources */,
+				147DA89929552ECA0002BE0D /* ProcessorServiceError.swift in Sources */,
+				147DA847295113570002BE0D /* MeasurementUtils.swift in Sources */,
+				140C54202A75199E00C0D7F0 /* DeviceUnsupportedView.swift in Sources */,
+				147DA85329547BA70002BE0D /* LocationMetricsView.swift in Sources */,
+				147DA88D29552BDB0002BE0D /* CaptureViewerView.swift in Sources */,
+				140240B8294FC711007207F5 /* ScanListView.swift in Sources */,
+				14DB8F04294B394D00ADE397 /* SCNFiles.swift in Sources */,
+				14DB8EC3294B259700ADE397 /* ActivityViewRepresentable.swift in Sources */,
+				1496A6B229817C8C00F9B412 /* UsdzFileViewerView.swift in Sources */,
+				14EA3B7629F94CF2005BE474 /* MeasurementPolygonFileFormat.swift in Sources */,
+				147DA88F29552BDB0002BE0D /* ProcessorParametersEditorView.swift in Sources */,
+				14DB8F08294B394D00ADE397 /* ARPlaneAnchor.swift in Sources */,
+				147DA8512953B1830002BE0D /* MeshControlsTabView.swift in Sources */,
+				14CC9B7E293D007500BFEDE4 /* MainView.swift in Sources */,
+				14DB8EC1294B254400ADE397 /* PointCloudVisualizationHostView.swift in Sources */,
+				14DB8F02294B394D00ADE397 /* Comparable.swift in Sources */,
+				147DA88529552BDB0002BE0D /* ConfidenceCaptureSubParameterView.swift in Sources */,
+				149B4C79296E022A00234E60 /* PointsViewerTabViewModel.swift in Sources */,
+				143F392E295C60BC0079FE9B /* Font.swift in Sources */,
+				147DA89829552ECA0002BE0D /* ProcessorParameters.swift in Sources */,
+				143F3928295BBBD10079FE9B /* View.swift in Sources */,
+				14D5FC9829670C2C00BA7CE0 /* MeshScan+CoreDataClass.swift in Sources */,
+				14D5268329E700AE00BBEECC /* NavigationUtils.swift in Sources */,
+				14CC9BAF2941148A00BFEDE4 /* PointCloud.swift in Sources */,
+				14DB8F01294B394D00ADE397 /* ARMeshGeometry.swift in Sources */,
+				147DA88229552BDB0002BE0D /* CaptureRenderingModel.swift in Sources */,
+				14D5FC9A29670DE400BA7CE0 /* Image.swift in Sources */,
+				1485D07C296F75B400A5CFD0 /* SavedPointsViewerView.swift in Sources */,
+				147DA88429552BDB0002BE0D /* CaptureControlModel.swift in Sources */,
+				1496A6C52984241C00F9B412 /* PointsCaptureView.swift in Sources */,
+				1496A6BD29827FBA00F9B412 /* ARScnViewRepresentable.swift in Sources */,
+				140E6C3829DC223C00532283 /* HelperObjects.swift in Sources */,
+				14D1A2C329B5418900852901 /* LocalizationService.swift in Sources */,
+				1496A6AC297F199300F9B412 /* SceneKitView.swift in Sources */,
+				147DA88329552BDB0002BE0D /* CaptureRenderingView.swift in Sources */,
+				1496A6BF2982800D00F9B412 /* ARSCNViewModel.swift in Sources */,
+				143F3930295CBB000079FE9B /* SavedMeshViewerView.swift in Sources */,
+				149B4C73296DF1FE00234E60 /* PointsViewerToolsView.swift in Sources */,
+				1485D07A296F6C7B00A5CFD0 /* SavePointsScanView.swift in Sources */,
+				14DB8EC0294B254400ADE397 /* PointCloudVisualizationViewController.swift in Sources */,
+				1496A6A6297953AF00F9B412 /* PointsViewerViewModel.swift in Sources */,
+				1467E4CD29F1731D00D4B4AC /* PointsViewerSettingsView.swift in Sources */,
+				147DA88929552BDB0002BE0D /* CaptureModel.swift in Sources */,
+				1485D010296EF6C800A5CFD0 /* UniformTypeIdentifier.swift in Sources */,
+				1496A6C32984234C00F9B412 /* AppDelegate.swift in Sources */,
+				1496A6AA297F15BD00F9B412 /* ObjFileViewerView.swift in Sources */,
+				140240B4294FAF76007207F5 /* HeaderView.swift in Sources */,
+				149B4C77296DF36900234E60 /* PointsViewerAdjustmentsViewModel.swift in Sources */,
+				147DA89B29552ECA0002BE0D /* ProcessorParameters+RawRepresentable.swift in Sources */,
+				14DB8EBF294B254400ADE397 /* PointCloudVisualizationView.swift in Sources */,
+				147DA88029552BDB0002BE0D /* MetricsView.swift in Sources */,
+				1496A6AE2981689000F9B412 /* ObjFileViewerViewModel.swift in Sources */,
+				149B4C6F296CD27200234E60 /* PointsViewerTabView.swift in Sources */,
+				14CC9BE6294A27C400BFEDE4 /* Enums.swift in Sources */,
+				14862DFD29DD8D9C00C39BED /* PointsCaptureTabViewModel.swift in Sources */,
+				143F3923295A4ECE0079FE9B /* MeshViewerView.swift in Sources */,
+				14EA3B782A02B37E005BE474 /* Binding.swift in Sources */,
+				140240BA294FC950007207F5 /* EmptySectionView.swift in Sources */,
+				1496A6CA299D318700F9B412 /* PointsCaptureTabView.swift in Sources */,
+				147DA88829552BDB0002BE0D /* CaptureControlView.swift in Sources */,
+				149B4C67296B80BB00234E60 /* Constants.swift in Sources */,
+				143F3921295A49D70079FE9B /* PreviewControllerRepresentable.swift in Sources */,
+				147DA88B29552BDB0002BE0D /* CaptureToggleStyle.swift in Sources */,
+				1496A6A82979565A00F9B412 /* PointCloudKitHelper.swift in Sources */,
+				147DA88E29552BDB0002BE0D /* CaptureViewerControlsModel.swift in Sources */,
+				14CC9B8B293D069F00BFEDE4 /* DataController.swift in Sources */,
+				1496A6C7298ACF6A00F9B412 /* PointsCaptureParametersView.swift in Sources */,
+				147DA89029552BDB0002BE0D /* CaptureViewerControlsView.swift in Sources */,
+				14DB8F05294B394D00ADE397 /* FloatFiles.swift in Sources */,
+				14F1096D29D228B600E75A4A /* PointsViewerTabView+Export.swift in Sources */,
+				143F5EDE29C3130A00846845 /* SavedPointsViewerTabView.swift in Sources */,
+				14CC9B7C293D007500BFEDE4 /* DataFlorScannerApp.swift in Sources */,
+				147DA88629552BDB0002BE0D /* SamplingRateCaptureSubParameterView.swift in Sources */,
+				14D1A2C629B8FFA600852901 /* SavedPointsViewerViewModel.swift in Sources */,
+				14D6B6862A7A72E700222FB5 /* SceneDisplayView.swift in Sources */,
+				147DA88C29552BDB0002BE0D /* CaptureViewerModel.swift in Sources */,
+				147DA89A29552ECA0002BE0D /* ProcessorService.swift in Sources */,
+				14CC9BA3293D242B00BFEDE4 /* ExpandableFAB.swift in Sources */,
+				14CC9B92293D12A000BFEDE4 /* ScanListCellView.swift in Sources */,
+				143F392A295BBCEE0079FE9B /* SaveMeshScanView.swift in Sources */,
+				140240E029510CD9007207F5 /* MeshViewControllerRepresentable.swift in Sources */,
+				14CC9BEC294A284700BFEDE4 /* FlashlightService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14D1A2B729B51AE000852901 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14D1A2B629B51AE000852901 /* en */,
+				14D1A2B829B51AEC00852901 /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		14D1A2BE29B52F9600852901 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14D1A2BD29B52F9600852901 /* en */,
+				14D1A2BF29B52F9800852901 /* de */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14CC9B84293D007600BFEDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14CC9B85293D007600BFEDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14CC9B87293D007600BFEDE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataFlorScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SJZ7UMS8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DataFlorScanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs to access your camera to show AR Content";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app needs access to your location to tag a scan to its location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uni.goet.DataFlorScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14CC9B88293D007600BFEDE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DataFlorScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = 7SJZ7UMS8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DataFlorScanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs to access your camera to show AR Content";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app needs access to your location to tag a scan to its location";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uni.goet.DataFlorScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14CC9B73293D007500BFEDE4 /* Build configuration list for PBXProject "DataFlorScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CC9B84293D007600BFEDE4 /* Debug */,
+				14CC9B85293D007600BFEDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CC9B86293D007600BFEDE4 /* Build configuration list for PBXNativeTarget "DataFlorScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CC9B87293D007600BFEDE4 /* Debug */,
+				14CC9B88293D007600BFEDE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		14862DF929DD732F00C39BED /* XCRemoteSwiftPackageReference "Model3DView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/frzi/Model3DView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.1;
+			};
+		};
+		14CC9B96293D1BD800BFEDE4 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		14D75971294F4F1D009FB6B6 /* XCRemoteSwiftPackageReference "Open3D-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kewlbear/Open3D-iOS.git";
+			requirement = {
+				kind = revision;
+				revision = b7155b2c4dbb80e7cb079ca05c659e7a17b1eb1e;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		14862DFA29DD732F00C39BED /* Model3DView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14862DF929DD732F00C39BED /* XCRemoteSwiftPackageReference "Model3DView" */;
+			productName = Model3DView;
+		};
+		14CC9B97293D1BD800BFEDE4 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14CC9B96293D1BD800BFEDE4 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+		14D75972294F4F1D009FB6B6 /* Open3D-iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 14D75971294F4F1D009FB6B6 /* XCRemoteSwiftPackageReference "Open3D-iOS" */;
+			productName = "Open3D-iOS";
+		};
+		14DB8EAE294A55EE00ADE397 /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+		14DB8EB1294A55FF00ADE397 /* PointCloudRendererService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PointCloudRendererService;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		14CC9B8C293D06CE00BFEDE4 /* scannerModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14CC9B8D293D06CE00BFEDE4 /* scannerModel.xcdatamodel */,
+			);
+			currentVersion = 14CC9B8D293D06CE00BFEDE4 /* scannerModel.xcdatamodel */;
+			path = scannerModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14CC9B70293D007500BFEDE4 /* Project object */;
+}

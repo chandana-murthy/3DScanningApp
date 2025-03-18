@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9F109C7A-1AB4-4CDA-94AF-57A6C39FC715"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0FB0B10-F46E-4BD6-93EF-D84AB7A31FAA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataFlorScanner/PointCloudViews/SavedPointsViewer/SavedPointsViewerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "sceneView"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0266824B-7B0A-47E1-9F80-2AA6DBEA2C0C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataFlorScanner/PointCloudViews/SavedPointsViewer/SavedPointsViewerView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "tabView"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46707DF8-6A60-401C-8DEB-2D9832A890EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataFlorScanner/PointCloudViews/SceneUIView/SceneUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "undoLast()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7953CDE-1CB1-4943-B302-83063FD55203"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DataFlorScanner/PointCloudViews/SceneUIView/SceneUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "initialiseMeasureNodes()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E7953CDE-1CB1-4943-B302-83063FD55203 - 11336861a4c2f208"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DataFlorScanner.SceneUIView.Coordinator.initialiseMeasureNodes() -&gt; ()"
+                  moduleName = "DataFlorScanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chandanamurthy/develop/DataFlorScanner/DataFlorScanner/PointCloudViews/SceneUIView/SceneUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "E7953CDE-1CB1-4943-B302-83063FD55203 - 8fac81eef5a27716"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.SCNNode) -&gt; Swift.Bool in DataFlorScanner.SceneUIView.Coordinator.initialiseMeasureNodes() -&gt; ()"
+                  moduleName = "DataFlorScanner"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chandanamurthy/develop/DataFlorScanner/DataFlorScanner/PointCloudViews/SceneUIView/SceneUIView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

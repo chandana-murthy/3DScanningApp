@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  DataFlorScanner
+
+  Created by Chandana Murthy on 05.03.23.
+  
+*/
+
+NSLocationWhenInUseUsageDescription = "Die App benötigt Zugriff auf Ihren Standort, um einen Scan mit seinem Standort zu verknüpfen";
+NSCameraUsageDescription = "Die App muss auf Ihre Kamera zugreifen, um AR-Inhalte anzuzeigen";
