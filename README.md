@@ -140,13 +140,3 @@ For more info on MetalView - https://medium.com/@warrenm - There is a 30 days of
 Detect Planes - We use ARSCNView to show the mesh and measure distances in real-time
 
 -------------------------------------------------------------------------------------------------------------------------
-
-Some Wiki Pages & Links:
-
-App comparisons with the same (or, as similar as possible in the same area) scan area - https://gitlab.gwdg.de/c.venkateshmurthy/dataflor-3d-model-construction/-/wikis/Scan-Comparisons
-
-Open3D Execution method:  https://gitlab.gwdg.de/c.venkateshmurthy/dataflor-3d-model-construction/-/wikis/Open-3d-execution-methodology
-
-OwnCloud - https://owncloud.gwdg.de/index.php/apps/files/?dir=/DataFlor-PLYExports&fileid=2059712146
-
-Progress documentation - https://gitlab.gwdg.de/c.venkateshmurthy/dataflor-3d-model-construction/-/wikis/Documentation-Progress
